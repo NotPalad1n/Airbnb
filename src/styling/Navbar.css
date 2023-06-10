@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    padding: 20px 30px;
+    align-items: center;
+    width: 100%;
+    
+    background-color: white;
+}

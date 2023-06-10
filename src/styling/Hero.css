@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.banner{
+    margin: 0 77px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 36px;
+    width: 320px;
+    gap: 16px;
+}
+
+.text h1{
+    font-weight: 600;
+}
+
+.text p{
+    font-weight: 300;
+}

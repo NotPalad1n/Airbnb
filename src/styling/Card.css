@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card_holder{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 176px;
+    font-size: 12px;
+    position: relative;
+    height: 100%;
+}
+
+.card{
+    max-height: 235px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.star{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+.star span{
+    color: #FE395C;
+}
+.star img{
+    padding: 4px 0;
+    max-height: 18px;
+}
+
+.price span{
+    font-weight: 600;
+}
+
+.status{
+    position: absolute;
+    background: white;
+    padding: 1px 4px;
+    border-radius: 3px;
+    top: 6px;
+    left: 6px;
+}
+
