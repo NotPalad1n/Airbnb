@@ -7,6 +7,12 @@
 
 .list{
     display: flex;
-    margin-left: 36px;
+    padding: 0 36px;
     gap: 18px;
+    overflow-x: auto;
+    
+}
+
+.list::-webkit-scrollbar{
+    width: 0;
 }
