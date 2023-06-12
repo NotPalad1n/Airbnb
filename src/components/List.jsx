@@ -8,13 +8,15 @@ import CardData from '../Data/CardData'
 const List = () => {
   
   const Cards = CardData.map(card => <Card 
-    img={card.img}
-    status={card.status}
-    stars={card.stars}
-    reviews={card.reviews}
-    location={card.location}
-    title={card.title}
-    price={card.price}
+    key={card.id}
+    // img={card.img}
+    // openplaces={card.openplaces}
+    // stars={card.stars}
+    // reviews={card.reviews}
+    // location={card.location}
+    // title={card.title}
+    // price={card.price}
+    card={card}
   />)
   
   return (
